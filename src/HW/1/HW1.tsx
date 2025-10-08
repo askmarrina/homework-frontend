@@ -33,9 +33,9 @@ export const HW1 = () => {
 	];
 
 	return (
-        <h1>Users</h1>
-		// <div id={'hw01'}>
-		// 	{/*<UserList users={'НАЗВАНИЕ МАССИВА, КОТОРЫЙ МЫ ПЕРЕДАЕМ'} />*/}
-		// </div>
+
+		<div id={'hw01'}>
+			<UserList users={users} />
+		</div>
 	);
 };
